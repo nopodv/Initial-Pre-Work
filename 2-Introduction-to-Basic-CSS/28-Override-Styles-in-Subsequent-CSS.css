@@ -1,0 +1,18 @@
+/* Overide styles in subsequent CSS
+
+Order of style classes matters as the 2nd class will overide the initial class
+ that was added. The order in the element's class attribute does not matter. */
+ <style>
+   body {
+     background-color: black;
+     font-family: monospace;
+     color: green;
+   }
+   .pink-text {
+     color: pink;
+   }
+   .blue-text {
+     color: blue;
+   }
+ </style>
+ <h1 class="pink-text blue-text">Hello World!</h1>
