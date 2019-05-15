@@ -1,0 +1,17 @@
+/* Use a browser fallback for compatibilty
+
+Using a fallback variable if the custom variable is not found by the browser.
+That way if a browser cannot find the custom variable, it atleast has
+something to go with. */
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
