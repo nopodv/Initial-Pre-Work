@@ -1,0 +1,9 @@
+/* Use hex code for specific colors
+
+Another way to add or specify a color other than default.
+This is using numbers to specify colors.*/
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
