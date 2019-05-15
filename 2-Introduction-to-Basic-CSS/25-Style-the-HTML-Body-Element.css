@@ -1,0 +1,9 @@
+/* Style the HTML body element
+
+This is a good visual to know and see that there is an element that is actually
+present on the page. */
+<style>
+body {
+  background-color: black;
+}
+</style>
