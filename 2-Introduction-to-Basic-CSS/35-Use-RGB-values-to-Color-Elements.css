@@ -1,0 +1,8 @@
+/* Use RGB values to color elements
+
+Uses brightness values to control the mix of colors. */
+<style>
+  body {
+    background-color: rgb(0,0,0);
+  }
+</style>
