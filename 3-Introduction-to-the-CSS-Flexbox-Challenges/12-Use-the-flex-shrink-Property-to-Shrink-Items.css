@@ -1,0 +1,29 @@
+/* Use flex shrink
+
+Sometimes the elements are too larger to fit into the container. This will force
+ the contents indside a container by making the whole of them smaller. Adding
+ a value will allow the elements to shrink in relation to one another. */
+ <style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 100%;
+    height: 200px;
+    fles-shrink: 1;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 100%;
+    height: 200px;
+    flex-shrink: 2;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
